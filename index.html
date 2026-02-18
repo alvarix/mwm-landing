@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Wanllan Mi Wanlle</title>
+        <!-- Tailwind CSS CDN Link for quick prototyping -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-gray-100">
+        <!-- Full Width Hero Banner -->
+        <header class="bg-[#fff700] ext-white shadow-lg">
+            <div class="max-w-[1200px] mx-auto px-4 py-16 text-center">
+                <h1 class="text-4xl font-bold mb-4 md:text-5xl">
+                    Wanllan Mi Wanlle
+                </h1>
+                <p class="text-xl mb-6">
+                    A full width hero banner with a fixed width content area.
+                </p>
+                <!-- Centered Button within the Hero -->
+                <a
+                    href="#main-content"
+                    class="inline-block bg-white text-blue-600 hover:bg-gray-100 font-bold py-4 px-10 rounded-lg shadow-lg transition duration-300 transform hover:scale-105"
+                >
+                    Donate
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content Area (1200px max width, centered) -->
+        <main id="main-content" class="max-w-[1200px] mx-auto px-4 py-12">
+            <!-- Large Centered Button at the start of main content -->
+            <div class="flex justify-center mb-12">
+                <button
+                    class="bg-green-500 hover:bg-green-600 text-white font-bold py-6 px-16 rounded-xl shadow-xl transition duration-300 text-lg"
+                >
+                    Click Me!
+                </button>
+            </div>
+
+            <!-- Sample content to fill the area -->
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold mb-4">
+                    Main Content Section
+                </h2>
+                <p class="text-gray-700">
+                    This area is constrained to a maximum width of 1200px and
+                    centered using the `max-w-[1200px]` and `mx-auto` utility
+                    classes from the [Tailwind CSS docs](). This ensures
+                    consistent layout on large screens while remaining
+                    responsive on smaller viewports.
+                </p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white mt-12">
+            <div class="max-w-[1200px] mx-auto px-4 py-6 text-center">
+                <p>&copy; 2026 Wanllan Mi Wanlle</p>
+            </div>
+        </footer>
+    </body>
+</html>
