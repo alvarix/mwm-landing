@@ -3,9 +3,14 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Wanllan Mi Wanlle</title>
-        <!-- Tailwind CSS CDN Link for quick prototyping -->
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <title>Wanllan Mi Wanlle | Mutual Aid Brooklyn</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com" rel="stylesheet" />
+        <style>
+            body {
+                font-family: "Inter", sans-serif;
+            }
+        </style>
     </head>
     <body class="bg-gray-100">
         <!-- Full Width Hero Banner -->
@@ -15,41 +20,162 @@
                     Wanllan Mi Wanlle
                 </h1>
                 <p class="text-xl mb-6">
-                    A full width hero banner with a fixed width content area.
+                    WMW is a mutual aid group founded to support recent asylum seekers from West Africa. This initiative operates from physical offices and meeting spaces on Flatbush Avenue, Brooklyn and also through a thriving WhatsApp/Telegram group with over 2,300 participants.
                 </p>
                 <!-- Centered Button within the Hero -->
                 <a
-                    href="#main-content"
-                    class="inline-block bg-white text-blue-600 hover:bg-gray-100 font-bold py-4 px-10 rounded-lg shadow-lg transition duration-300 transform hover:scale-105"
+                    href="https://www.philanthropyleaders.org/be-a-funding-partner"
+                    class="inline-block bg-white text-black hover:bg-gray-100 font-bold py-4 px-10 rounded-lg shadow-lg transition duration-300 transform hover:scale-105"
                 >
                     Donate
                 </a>
             </div>
         </header>
 
-        <!-- Main Content Area (1200px max width, centered) -->
-        <main id="main-content" class="max-w-[1200px] mx-auto px-4 py-12">
-            <!-- Large Centered Button at the start of main content -->
-            <div class="flex justify-center mb-12">
-                <button
-                    class="bg-green-500 hover:bg-green-600 text-white font-bold py-6 px-16 rounded-xl shadow-xl transition duration-300 text-lg"
-                >
-                    Click Me!
-                </button>
-            </div>
-
-            <!-- Sample content to fill the area -->
+        <main id="main-content" class="max-w-[1000px] mx-auto px-4 py-12">
             <div class="bg-white p-8 rounded-lg shadow-md">
-                <h2 class="text-2xl font-semibold mb-4">
-                    Main Content Section
-                </h2>
-                <p class="text-gray-700">
-                    This area is constrained to a maximum width of 1200px and
-                    centered using the `max-w-[1200px]` and `mx-auto` utility
-                    classes from the [Tailwind CSS docs](). This ensures
-                    consistent layout on large screens while remaining
-                    responsive on smaller viewports.
-                </p>
+
+                <!-- About Section -->
+                <section class="max-w-3xl mx-auto px-4 py-12 space-y-8">
+
+                  <h2 class="text-3xl font-semibold text-gray-900">
+                    About Wanllan Mi Wanlle
+                  </h2>
+
+
+
+                  <p class="text-gray-700 leading-relaxed">
+                    "Wanllan Mi Wanlle"  (WMW) means "Help Me, I Help You" in Fulani.<br>
+                    The group focuses on helping its members navigate the treacherous waters of our current immigration laws as well as to promote community to overcome isolation and loneliness. All hands are welcome. A large community of allies among native New Yorkers and beyond provide support by donating time, money and wisdom to widen WMW’s impact and sustainability. WMW also benefits from the generous advice from staff at Co-Counsel, NYC and many other organizational partners.
+                  </p>
+
+                  <p class="text-gray-700 leading-relaxed">
+                    WMW’s support takes many forms, as members and volunteers share their time and expertise. Assistance can take the form of guiding access to public benefits, encompassing Medicaid, food stamps, the NYC ID card, reduced Metro-card fare, and many forms of English language programs. Our volunteers are called “Navigators” and can help members with many of the services listed below, for free, as well as just being friendly listeners and mentors.
+                  </p>
+
+                  <p class="text-gray-700 leading-relaxed">
+                    The greatest focus in this moment is on the complex asylum process, including reporting to ICE, scheduling remote hearings, and finding accurate legal advice, in general. Members also get help with civil and criminal legal matters and unfair medical bills. Housing and work are also important topics, including employment authorization applications, small business assistance and trading information on apartment shares. Members also join regular soccer games in Prospect Park and monthly collective dinners at the offices.
+                  </p>
+
+                  <h3 class="text-2xl font-semibold text-gray-900 pt-6">
+                    Community Impact
+                  </h3>
+
+                  <p class="text-gray-700 leading-relaxed">
+                    The resilience and relevance of Wanllan Mi Wanlle are evident in rapid growth. With over 2,300 dedicated members, our community continues to expand, highlighting how members and volunteers can aid each other and the urgency of the needs we address.
+                  </p>
+
+                  <h3 class="text-2xl font-semibold text-gray-900 pt-6">
+                    Staffing & Administration
+                  </h3>
+
+                  <p class="text-gray-700 leading-relaxed">
+                    WMW is a fiscally-sponsored project of the nonprofit Philanthropy Leaders. It is staffed by Abdulai Bah and Soulyman Barry.
+                  </p>
+
+                </section>
+
+
+                                <!-- Services Grid -->
+                                <section class="mb-20">
+                                    <div class="text-center mb-12">
+                                        <h2 class="text-4xl font-extrabold mb-4">Services We Offer</h2>
+                                    </div>
+
+                                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                        <!-- Service Cards -->
+
+
+                                        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                                          <h4 class="font-bold text-lg mb-2 text-[#214e13]">Unfair Medical Bills?</h4>
+                                          <p class="text-sm text-slate-600">Got a bill from a hospital or doctor which should be paid by your insurance agent or is unexpectedly large? Our volunteer Navigator will help you reduce or eliminate such bills. He has already eliminated bills for thousands of dollars for members over the past month.</p>
+                                        </div>
+
+                                        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                                          <h4 class="font-bold text-lg mb-2 text-[#214e13]">Medical Assistance Program</h4>
+                                          <p class="text-sm text-slate-600">We can provide guidance and support for members to apply for Medicaid benefits. Get assistance to understand eligibility criteria, complete application forms, and address any challenges that may arise during the application process.</p>
+                                        </div>
+
+                                        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                                          <h4 class="font-bold text-lg mb-2 text-[#214e13]">IDNYC Assistance Program</h4>
+                                          <p class="text-sm text-slate-600">Let us help you obtain an IDNYC municipal identification card application and obtain a proof of address letter. We provide information guidance on how to access the service.</p>
+                                        </div>
+
+                                        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                                          <h4 class="font-bold text-lg mb-2 text-[#214e13]">ICE Registration Support</h4>
+                                          <p class="text-sm text-slate-600">Our ICE Registration Support program offers assistance to individuals required to register with Immigration and Customs Enforcement (ICE). Obtain guidance on registration requirements and to complete registration forms.</p>
+                                        </div>
+
+                                        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                                          <h4 class="font-bold text-lg mb-2 text-[#214e13]">Change of Address Assistance</h4>
+                                          <p class="text-sm text-slate-600">We can help members update their address with relevant authorities, such as immigration agencies and government offices. Get help with the process for updating address information and assist individuals in completing the necessary paperwork.</p>
+                                        </div>
+
+                                        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                                          <h4 class="font-bold text-lg mb-2 text-[#214e13]">Change of Venue Support</h4>
+                                          <p class="text-sm text-slate-600">Get help in completing a change of venue motion for their immigration court hearings.</p>
+                                        </div>
+
+                                        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                                          <h4 class="font-bold text-lg mb-2 text-[#214e13]">Reduced Metro-Card Fare Program</h4>
+                                          <p class="text-sm text-slate-600">Are you eligible for a reduced-fare Metro-Cards for public transportation? We provide information on eligibility criteria, and assist in completing applications.</p>
+                                        </div>
+
+                                        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                                          <h4 class="font-bold text-lg mb-2 text-[#214e13]">Affidavit Review Service</h4>
+                                          <p class="text-sm text-slate-600">Our Affidavit Review Service offers assistance to individuals in reviewing and preparing affidavits to support their asylum applications. We review affidavits for accuracy, completeness, and compliance with legal requirements.</p>
+                                        </div>
+
+                                        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                                          <h4 class="font-bold text-lg mb-2 text-[#214e13]">Work-Permit Assistance</h4>
+                                          <p class="text-sm text-slate-600">Our Work-Permit Assistance program provides guidance and support for individuals seeking employment authorization. We provide information on eligibility criteria and assist constituents complete their work permit applications.</p>
+                                        </div>
+
+                                        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                                          <h4 class="font-bold text-lg mb-2 text-[#214e13]">Legal Consultation & Asylum Application Support</h4>
+                                          <p class="text-sm text-slate-600">Our Legal Consultation & Asylum Application Support program offers individuals access to legal consultations and assistance with preparing asylum applications, pro se, in partnership with <a target='_blank' class='underline' href='https://cocounsel.org/'>Co-Counsel NYC</a>.</p>
+                                        </div>
+
+                                        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                                          <h4 class="font-bold text-lg mb-2 text-[#214e13]">Want to Drive? Learner’s Permit Class and Online Test Preparation</h4>
+                                          <p class="text-sm text-slate-600">We can help you prepare for the learner’s permit test required for obtaining a driver’s license.</p>
+                                        </div>
+
+                                        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100">
+                                          <h4 class="font-bold text-lg mb-2 text-[#214e13]">Online Master Calendar Hearing Assistance</h4>
+                                          <p class="text-sm text-slate-600">Our Online Master Calendar Hearing Assistance program offers support to individuals scheduled for immigration court hearings. We provide access to a computer in our office, guidance on preparing for master calendar hearings conducted online, and assistance in understanding hearing procedures.</p>
+                                        </div>
+
+                                    </div>
+                                </section>
+
+                                <div class="flex justify-center m-24 mt-0">
+                                    <a
+                                        href="https://www.philanthropyleaders.org/be-a-funding-partner"
+                                        class="inline-block bg-[#fff700] text-bblack Xhover:bg-gray-100 font-bold py-4 px-10 rounded-lg shadow-lg transition duration-300 transform hover:scale-105"
+                                    >
+                                        Donate
+                                    </a>
+                                </div>
+
+                                <!-- Join/Contact Section -->
+                                <section id="join" class="bg-[#214e13] rounded-3xl p-12 text-center text-white">
+                                    <h2 class="text-3xl font-bold mb-6">Build a Better Future Together</h2>
+                                    <p class="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+                                        Wanllan Mi Wanlle is an inclusive, non-sectarian space. Whether you need support or wish to donate your time and wisdom, we welcome you.
+                                    </p>
+                                    <div class="space-y-4">
+                                        <p class="text-2xl font-semibold">Contact Us</p>
+                                        <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 text-xl">
+                                            <span class="flex items-center"><a class='display-block' href='mailto:info@wanllan.org'>info@wanllan.org</a></span>
+                                            <span class="flex items-center hidden">(917) ___ - ____</span>
+                                        </div>
+                                        <p class="pt-6 text-[#214e13] uppercase tracking-widest text-sm font-bold">Flatbush Avenue, Brooklyn, NY</p>
+                                    </div>
+                                </section>
+
+            </main>
+
             </div>
         </main>
 
