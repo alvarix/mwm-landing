@@ -17,6 +17,27 @@
                 }
             }
         </style>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Select all anchor elements on the page
+            const anchors = document.querySelectorAll("a");
+
+            // Get the current website's hostname
+            const currentHostname = window.location.hostname;
+
+            // Iterate over all the links
+            anchors.forEach(anchor => {
+                // Check if the link's hostname is different from the current hostname
+                if (anchor.hostname !== currentHostname && anchor.hostname !== "") {
+                    // Set the target attribute to _blank to open in a new tab
+                    anchor.setAttribute("target", "_blank");
+
+                    // Set the rel attribute for security best practices (prevents reverse tabnabbing)
+                    anchor.setAttribute("rel", "noopener noreferrer");
+                }
+            });
+        });
+        </script>
     </head>
     <body class="bg-gray-100">
         <!-- Full Width Hero Banner -->
@@ -58,7 +79,7 @@
                               Faire un don
                           </a>
                       </div>
-                      <p>Le soutien au sein de WMW repose sur l'entraide et est porté par la communauté. Des bénévoles appelés Navigators offrent une assistance gratuite dans de nombreux domaines tout en agissant comme personnes de confiance et mentors. Les Navigators peuvent s'inscrire <a href="#">à l'aide de ce formulaire</a>. Les services incluent l'aide à l'accès aux prestations publiques telles que Medicaid, les cartes d'identification de l'État et de la ville de New York, les programmes d'apprentissage de l'anglais, ainsi que des orientations vers d'autres ressources communautaires.</p>
+                      <p>Le soutien au sein de WMW repose sur l'entraide et est porté par la communauté. Des bénévoles appelés Navigators offrent une assistance gratuite dans de nombreux domaines tout en agissant comme personnes de confiance et mentors. Les Navigators peuvent s'inscrire <a href="https://docs.google.com/document/d/1zQctQKzQTSseHRoQMpRuu14nD0aZDnI50jcLcZANc2E/edit?usp=sharing">à l'aide de ce formulaire</a>. Les services incluent l'aide à l'accès aux prestations publiques telles que Medicaid, les cartes d'identification de l'État et de la ville de New York, les programmes d'apprentissage de l'anglais, ainsi que des orientations vers d'autres ressources communautaires.</p>
 
                       <p>Actuellement, WMW met particulièrement l'accent sur l'accompagnement des membres dans le processus d'asile. Cela inclut l'aide à la compréhension de la prétermission, la préparation de dépôts et de motions en matière d'immigration, ainsi que l'orientation vers des voies menant à la résidence permanente.</p>
 
